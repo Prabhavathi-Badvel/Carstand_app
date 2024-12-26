@@ -1,0 +1,13 @@
+package com.my.fl.startup.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ResponseModel {
+	
+	private String error;
+	private String msg;
+	
+}
